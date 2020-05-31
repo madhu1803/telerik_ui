@@ -13,13 +13,34 @@ body {
 /* header container  */
 
 .main-container .header-container {
+    width: 100%;
     height: 8%;
     background-color: #FCDA4B;
     text-align: center;
+    padding: 1.5%;
 }
 
-.main-container .header-container .header-text {
-    padding-top: 1%;
-    padding-bottom: 1%;
+/* jumbotron */
 
+.jumbotron-container .jumbotron {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+        url("jumbotron.jpg");
+}
+
+/* cards container */
+
+.cards-container {
+    margin-top: 8% !important;
+}
+
+.cards-container .row .col-md-4 .card {
+    margin-bottom: 20% !important;
+    border: none !important;
+}
+
+.cards-container .row .col-md-4 .card .card-header,
+.cards-container .row .col-md-4 .card .card-body .card-title,
+.cards-container .row .col-md-4 .card .card-body .card-text {
+    text-align: center;
+    height: 50px;
 }
