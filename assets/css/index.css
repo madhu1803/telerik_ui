@@ -1,0 +1,25 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* main container */
+.main-container {
+    height: 100%;
+}
+
+/* header container  */
+
+.main-container .header-container {
+    height: 8%;
+    background-color: #FCDA4B;
+    text-align: center;
+}
+
+.main-container .header-container .header-text {
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
