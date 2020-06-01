@@ -24,10 +24,13 @@ body {
 /* jumbotron */
 
 .jumbotron {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
-        url("/assets/images/jumbotron.jpg");
-    padding-top: 10%;
-    padding-bottom: 10%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url('../images/jumbotron.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    color: white;
 }
 
 /* spacing container */
@@ -41,7 +44,8 @@ body {
 .cards-container .card-section {
     text-align: center;
     padding: 10% 15%;
-    border: 0.1px solid lightgray;
+    border-bottom: 0.1px solid lightgray;
+    /* border-bottom-width: thin; */
     margin-bottom: 8%;
 }
 
@@ -59,11 +63,12 @@ body {
 
 .main-container .notation-number-container .notation-number-content {
     text-align: center;
+    padding-top: 30px;
 }
 
 .main-container .notation-number-container .notation-number-content h1 {
     color: white !important;
     font-size: 60px;
     font-weight: 200;
-    margin-top: 30px;
+
 }
