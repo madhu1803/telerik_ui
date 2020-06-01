@@ -22,25 +22,27 @@ body {
 
 /* jumbotron */
 
-.jumbotron-container .jumbotron {
+.jumbotron {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
-        url("jumbotron.jpg");
+        url("/assets/images/jumbotron.jpg");
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 
 /* cards container */
-
 .cards-container {
-    margin-top: 8% !important;
+    margin-top: 5% !important;
 }
 
-.cards-container .row .col-md-4 .card {
-    margin-bottom: 20% !important;
-    border: none !important;
-}
-
-.cards-container .row .col-md-4 .card .card-header,
-.cards-container .row .col-md-4 .card .card-body .card-title,
-.cards-container .row .col-md-4 .card .card-body .card-text {
+.cards-container .row .col-md-6 .card-section {
     text-align: center;
-    height: 50px;
+    padding: 10% 15%;
+    border: 0.1px solid lightgray;
+    min-width: 100%;
+    margin-bottom: 8%;
+}
+
+.cards-container .row .col-md-6 .card-section .card-section-body .btn-gray {
+    background-color: #354A5F;
+    color: white;
 }
